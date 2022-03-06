@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    vector<int> v = {2,1,5,8,3};
+    vector<int> ans;
+    int max = 0;
+    
+    for(int i : v) {
+        if(i > max) {
+            max = i;
+        }
+        ans.push_back(max);
+    }
+
+    for(int a: ans) {
+        cout<<a<<" ";
+    }
+    return 0;
+}
