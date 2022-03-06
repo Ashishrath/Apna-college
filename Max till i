@@ -6,7 +6,7 @@ int main()
 {
     vector<int> v = {2,1,5,8,3};
     vector<int> ans;
-    int max = 0;
+    int max = INT_MIN;
     
     for(int i : v) {
         if(i > max) {
